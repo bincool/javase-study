@@ -20,10 +20,20 @@ import java.util.Arrays;
 * 员工测试类.
 * </p>
 * <p>
-* 详细描述.
+* 详细描述：Comparable可以认为是一个内部比较器，实现了Comparable接口的类，可以自己和自己比较，
+* 至于具体要和另一实现了Comparable的类比较，那么则需要依赖compareTo方法，compareTo也被称为自然比较方法.
+* compareTo的返回值有三种情况：正整数、负整数、0.如果是从小到大排序，则比较者大于被比较者赋值为正整数，
+* 比较者小于被比较者为负整数.如果是从大到小排序，则相反.
+* Comparator可以认为是一个外部比较器，实现了Comparator接口的类，则需要依赖于compare方法.返回值同上.
 * </p>
 * <p>
-* 示例代码.
+* Comparator应用场景：1、一个对象不支持和自己比较(没有实现Comparable接口)，不想改变原有代码(或由于种种原因不能修改)，
+* 但又想对两个对象比较.2、一个对象实现了Comparable接口，但是新业务场景用不上(或不需要用已有的比较方式).
+* 总结一下，两种比较器Comparable和Comparator，后者相比前者有如下优点：
+* 1、如果实现类没有实现Comparable接口，又想对两个类进行比较（或者实现类实现了Comparable接口，但是对compareTo方法内的比较算法不满意），那么可以实现Comparator接口，自定义一个比较器，写比较算法
+* 2、实现Comparable接口的方式比实现Comparator接口的耦合性 要强一些，如果要修改比较算法，要修改Comparable接口的实现类，而实现Comparator的类是在外部进行比较的，不需要对实现类有任何修 改。
+* 实际上实现Comparator接口的方式后面会写到就是一种典型的策略模式。
+* 一般实现了Comparator接口的类命名一般为：类名+属性名+Comparator.
 * </p>
 *
 * @Author: wchy，技术交流(891946049).
