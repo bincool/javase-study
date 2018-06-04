@@ -1,7 +1,7 @@
 /**
 * @FileName: CreateThreadRannableTest.java
 * @Package: xyz.wchy.studythread
-* @Copyright: 2018 www.wchy.xyz Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: CreateThreadRannableTest.java: 一句话描述文件的作用.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年4月18日 下午4:59:50.

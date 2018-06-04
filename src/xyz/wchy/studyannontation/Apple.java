@@ -1,7 +1,7 @@
 /**
 * @FileName: Apple.java
 * @Package: xyz.wchy.studyannontation
-* @Copyright: 2018 www.wchy.xyz Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: Apple.java: 自定义注解-苹果.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年4月28日 下午3:44:21.

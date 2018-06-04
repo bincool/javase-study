@@ -1,7 +1,7 @@
 /**
 * @FileName: TestBase.java
 * @Package: xyz.wchy.common.abst
-* @Copyright: 2018 www.wchy.xyz Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: TestBase.java: junit测试接口类.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年4月18日 下午5:22:50.

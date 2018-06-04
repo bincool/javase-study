@@ -1,7 +1,7 @@
 /**
 * @FileName: Employee.java
 * @Package: xyz.wchy.studyintf
-* @Copyright: 2018 www.wchy.xyz Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: Employee.java: JavaSE基础-接口和内部类.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年1月29日 下午3:23:38.
