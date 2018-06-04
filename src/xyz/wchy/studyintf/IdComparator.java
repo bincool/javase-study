@@ -1,7 +1,7 @@
 /**
 * @FileName: IdComparator.java
 * @Package: xyz.wchy.studyintf
-* @Copyright: 2018 www.wchy.xyz Inc. All Rights Reserved.
+* @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
 * @Description: IdComparator.java: Id比较器.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年1月29日 下午4:04:52.
