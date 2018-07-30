@@ -1,0 +1,19 @@
+2018-07-30 15:45:27,740 - 排序前：
+ 2018-07-30 15:45:27,740 - Employee [id=5, name=One, age=18]
+ 2018-07-30 15:45:27,741 - Employee [id=2, name=Two, age=19]
+ 2018-07-30 15:45:27,741 - Employee [id=4, name=Three, age=19]
+ 2018-07-30 15:45:27,741 - Employee [id=3, name=Four, age=18]
+ 2018-07-30 15:45:27,741 - Employee [id=1, name=Five, age=20]
+ 2018-07-30 15:45:27,743 - 按年龄排序后：
+ 2018-07-30 15:45:27,743 - Employee [id=1, name=Five, age=20]
+ 2018-07-30 15:45:27,743 - Employee [id=2, name=Two, age=19]
+ 2018-07-30 15:45:27,743 - Employee [id=4, name=Three, age=19]
+ 2018-07-30 15:45:27,743 - Employee [id=5, name=One, age=18]
+ 2018-07-30 15:45:27,744 - Employee [id=3, name=Four, age=18]
+ 2018-07-30 15:45:27,744 - 按EmployeeId排序后：
+ 2018-07-30 15:45:27,745 - Employee [id=1, name=Five, age=20]
+ 2018-07-30 15:45:27,745 - Employee [id=2, name=Two, age=19]
+ 2018-07-30 15:45:27,745 - Employee [id=3, name=Four, age=18]
+ 2018-07-30 15:45:27,745 - Employee [id=4, name=Three, age=19]
+ 2018-07-30 15:45:27,745 - Employee [id=5, name=One, age=18]
+ 

@@ -1,14 +1,14 @@
 /**
 * @FileName: Employee.java
-* @Package: xyz.wchy.studyintf
+* @Package: io.github.bincool.study.jdkbasis.bean
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: Employee.java: JavaSE基础-接口和内部类.
+* @Description: Employee.java: Comparable接口学习.
 * @Author wchy，技术交流(891946049).
-* @Date 2018年1月29日 下午3:23:38.
+* @Date 2018年7月30日 下午3:26:23.
 * @Content: 新增.
 * @Version: V1.0.
 */
-package xyz.wchy.studyintf;
+package io.github.bincool.study.jdkbasis.bean;
 
 /**
 * @ClassName: Employee.java
@@ -26,7 +26,7 @@ package xyz.wchy.studyintf;
 *
 * @Author: wchy，技术交流(891946049).
 * 
-* @Date: 2018年1月29日 下午3:23:38.
+* @Date: 2018年7月30日 下午3:26:23.
 * 
 */
 public class Employee implements Comparable<Employee> 
@@ -131,3 +131,4 @@ public class Employee implements Comparable<Employee>
 	}
 	
 }
+

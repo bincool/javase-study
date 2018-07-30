@@ -1,23 +1,27 @@
 /**
 * @FileName: EmployeeTest.java
-* @Package: xyz.wchy.studyintf
+* @Package: io.github.bincool.test.study.jdkbasis.comparator
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: EmployeeTest.java: 员工测试类.
+* @Description: EmployeeTest.java: 员工比较器测试类.
 * @Author wchy，技术交流(891946049).
-* @Date 2018年1月29日 下午3:53:44.
+* @Date 2018年7月30日 下午3:31:58.
 * @Content: 新增.
 * @Version: V1.0.
 */
-package xyz.wchy.studyintf;
+package io.github.bincool.test.study.jdkbasis.comparator;
 
 import java.util.Arrays;
+
+import io.github.bincool.study.jdkbasis.bean.Employee;
+import io.github.bincool.study.jdkbasis.comparator.EmployeeIdComparator;
+import io.github.bincool.test.base.BaseTest;
 
 /**
 * @ClassName: EmployeeTest.java
 * 
 * @Description: 
 * <p>
-* 员工测试类.
+* 员工比较器测试类.
 * </p>
 * <p>
 * 详细描述：Comparable可以认为是一个内部比较器，实现了Comparable接口的类，可以自己和自己比较，
@@ -38,19 +42,22 @@ import java.util.Arrays;
 *
 * @Author: wchy，技术交流(891946049).
 * 
-* @Date: 2018年1月29日 下午3:53:44.
+* @Date: 2018年7月30日 下午3:31:58.
 * 
 */
-public class EmployeeTest 
+public class EmployeeTest extends BaseTest 
 {
 	
-	/**
-	 * 入口方法.
-	 * @param args
+	// 员工.
+	private Employee[] employees;
+
+	/* (non-Javadoc)
+	 * @see io.github.bincool.test.base.BaseTest#setUp()
 	 */
-	public static void main(String[] args) 
+	@Override
+	public void setUp() throws Exception 
 	{
-		Employee[] employees = new Employee[5];
+		employees = new Employee[5];
 		Employee employee1 = new Employee(5, "One", 18);
 		Employee employee2 = new Employee(2, "Two", 19);
 		Employee employee3 = new Employee(4, "Three", 19);
@@ -62,30 +69,46 @@ public class EmployeeTest
 		employees[2] = employee3;
 		employees[3] = employee4;
 		employees[4] = employee5;
-		
-		System.out.println("排序前：");
+	}
+
+	/* (non-Javadoc)
+	 * @see io.github.bincool.test.base.BaseTest#tearDown()
+	 */
+	@Override
+	public void tearDown() throws Exception 
+	{
+		employees = null;
+	}
+
+	/* (non-Javadoc)
+	 * @see io.github.bincool.test.base.BaseTest#test()
+	 */
+	@Override
+	public void test() throws Exception 
+	{
+		LOGGER.info("排序前：");
 		for (Employee employee : employees) 
 		{
-			System.out.println(employee);
+			LOGGER.info(employee);
 		}
 		
 		// 根据年龄从大到小排序.
 		Arrays.sort(employees);
 		
-		System.out.println("按年龄排序后：");
+		LOGGER.info("按年龄排序后：");
 		for (Employee employee : employees) 
 		{
-			System.out.println(employee);
+			LOGGER.info(employee);
 		}
 		
 		// 根据id从小到大排序.
-		Arrays.sort(employees, new IdComparator());
+		Arrays.sort(employees, new EmployeeIdComparator());
 		
-		System.out.println("按Id排序后：");
+		LOGGER.info("按EmployeeId排序后：");
 		for (Employee employee : employees) 
 		{
-			System.out.println(employee);
+			LOGGER.info(employee);
 		}
 	}
-	
+
 }

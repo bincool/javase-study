@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>javase-study</groupId>
+	<artifactId>javase-study</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>javase-study</name>
+	<description>javase-study</description>
+
+	<repositories>
+		<repository>
+			<id>bincool-maven-repository</id>
+			<name>bincool-maven-repository</name>
+			<url>https://raw.githubusercontent.com/bincool/maven-repository/master/</url>
+		</repository>
+	</repositories>
+
+	<properties>
+		<!-- junit版本号 -->
+		<junit.version>4.11</junit.version>
+		<!-- log4j版本号 -->
+		<log4j.version>1.2.17</log4j.version>
+		<!-- 自定义工具包版本号 -->
+		<commons-utils.version>1.0.0</commons-utils.version>
+	</properties>
+
+	<dependencies>
+		<!-- junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<!-- 表示开发的时候引入，发布的时候不会加载此包 -->
+			<!-- <scope>test</scope> -->
+		</dependency>
+
+		<!-- log4j工具包 -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+
+		<!-- 自定义commons-utils工具包 -->
+		<dependency>
+			<groupId>io.github.bincool</groupId>
+			<artifactId>commons-utils</artifactId>
+			<version>${commons-utils.version}</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.0.2</version>
+				<configuration>
+					<archive>
+						<manifestEntries>
+							<Class-Path>.</Class-Path>
+						</manifestEntries>
+					</archive>
+					<excludes>
+						<exclude>io/github/bincool/test/**</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

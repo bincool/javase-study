@@ -1,23 +1,25 @@
 /**
-* @FileName: IdComparator.java
-* @Package: xyz.wchy.studyintf
+* @FileName: EmployeeIdComparator.java
+* @Package: io.github.bincool.study.jdkbasis.comparator
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: IdComparator.java: Id比较器.
+* @Description: EmployeeIdComparator.java: EmployeeId比较器.
 * @Author wchy，技术交流(891946049).
-* @Date 2018年1月29日 下午4:04:52.
+* @Date 2018年7月30日 下午3:28:42.
 * @Content: 新增.
 * @Version: V1.0.
 */
-package xyz.wchy.studyintf;
+package io.github.bincool.study.jdkbasis.comparator;
 
 import java.util.Comparator;
 
+import io.github.bincool.study.jdkbasis.bean.Employee;
+
 /**
-* @ClassName: IdComparator.java
+* @ClassName: EmployeeIdComparator.java
 * 
 * @Description: 
 * <p>
-* Id比较器.
+* EmployeeId比较器.
 * </p>
 * <p>
 * 详细描述.
@@ -28,10 +30,10 @@ import java.util.Comparator;
 *
 * @Author: wchy，技术交流(891946049).
 * 
-* @Date: 2018年1月29日 下午4:04:52.
+* @Date: 2018年7月30日 下午3:28:42.
 * 
 */
-public class IdComparator implements Comparator<Employee> 
+public class EmployeeIdComparator implements Comparator<Employee> 
 {
 
 	/* (non-Javadoc)
