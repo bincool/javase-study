@@ -2,10 +2,10 @@
 * @FileName: EmployeeIdComparator.java
 * @Package: io.github.bincool.study.jdkbasis.comparator
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: EmployeeIdComparator.java: EmployeeId±È½ÏÆ÷.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê7ÔÂ30ÈÕ ÏÂÎç3:28:42.
-* @Content: ĞÂÔö.
+* @Description: EmployeeIdComparator.java: EmployeeIdæ¯”è¾ƒå™¨.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´7æœˆ30æ—¥ ä¸‹åˆ3:28:42.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package io.github.bincool.study.jdkbasis.comparator;
@@ -19,18 +19,18 @@ import io.github.bincool.study.jdkbasis.bean.Employee;
 * 
 * @Description: 
 * <p>
-* EmployeeId±È½ÏÆ÷.
+* EmployeeIdæ¯”è¾ƒå™¨.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê7ÔÂ30ÈÕ ÏÂÎç3:28:42.
+* @Date: 2018å¹´7æœˆ30æ—¥ ä¸‹åˆ3:28:42.
 * 
 */
 public class EmployeeIdComparator implements Comparator<Employee> 

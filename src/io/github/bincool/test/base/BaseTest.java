@@ -2,10 +2,10 @@
 * @FileName: BaseTest.java
 * @Package: io.github.bincool.test.base
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: BaseTest.java: ²âÊÔ»ùÀà½Ó¿Ú.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê7ÔÂ30ÈÕ ÉÏÎç10:11:58.
-* @Content: ĞÂÔö.
+* @Description: BaseTest.java: æµ‹è¯•åŸºç±»æ¥å£.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´7æœˆ30æ—¥ ä¸Šåˆ10:11:58.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package io.github.bincool.test.base;
@@ -20,25 +20,25 @@ import org.junit.Test;
 * 
 * @Description: 
 * <p>
-* ²âÊÔ»ùÀà½Ó¿Ú.
+* æµ‹è¯•åŸºç±»æ¥å£.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê7ÔÂ30ÈÕ ÉÏÎç10:11:58.
+* @Date: 2018å¹´7æœˆ30æ—¥ ä¸Šåˆ10:11:58.
 * 
 */
 public abstract class BaseTest 
 {
 	
 	/**
-	 * ÈÕÖ¾¶ÔÏó.
+	 * æ—¥å¿—å¯¹è±¡.
 	 */
 	protected static final Logger LOGGER = Logger.getLogger(BaseTest.class);
 

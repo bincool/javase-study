@@ -2,10 +2,10 @@
 * @FileName: Employee.java
 * @Package: io.github.bincool.study.jdkbasis.bean
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: Employee.java: Comparable½Ó¿ÚÑ§Ï°.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê7ÔÂ30ÈÕ ÏÂÎç3:26:23.
-* @Content: ĞÂÔö.
+* @Description: Employee.java: Comparableæ¥å£å­¦ä¹ .
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´7æœˆ30æ—¥ ä¸‹åˆ3:26:23.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package io.github.bincool.study.jdkbasis.bean;
@@ -15,46 +15,46 @@ package io.github.bincool.study.jdkbasis.bean;
 * 
 * @Description: 
 * <p>
-* Comparable½Ó¿ÚÑ§Ï°.
+* Comparableæ¥å£å­¦ä¹ .
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê7ÔÂ30ÈÕ ÏÂÎç3:26:23.
+* @Date: 2018å¹´7æœˆ30æ—¥ ä¸‹åˆ3:26:23.
 * 
 */
 public class Employee implements Comparable<Employee> 
 {
 
 	/**
-	 * Ô±¹¤ID.
+	 * å‘˜å·¥ID.
 	 */
 	private int id;
 	
 	/**
-	 * Ô±¹¤ĞÕÃû.
+	 * å‘˜å·¥å§“å.
 	 */
 	private String name;
 	
 	/**
-	 * Ô±¹¤ÄêÁä.
+	 * å‘˜å·¥å¹´é¾„.
 	 */
 	private int age;
 	
 	/**
-	 * ¹¹Ôìº¯Êı.
+	 * æ„é€ å‡½æ•°.
 	 * @param id
-	 * 		Ô±¹¤ID.
+	 * 		å‘˜å·¥ID.
 	 * @param name
-	 * 		Ô±¹¤ĞÕÃû.
+	 * 		å‘˜å·¥å§“å.
 	 * @param age
-	 * 		ÄêÁä.
+	 * 		å¹´é¾„.
 	 */
 	public Employee(int id, String name, int age) 
 	{
@@ -64,7 +64,7 @@ public class Employee implements Comparable<Employee>
 	}
 
 	/**
-	 * »ñÈ¡id.
+	 * è·å–id.
 	 * @return
 	 *     id.
 	 */
@@ -74,7 +74,7 @@ public class Employee implements Comparable<Employee>
 	}
 
 	/**
-	 * »ñÈ¡name.
+	 * è·å–name.
 	 * @return
 	 *     name.
 	 */
@@ -84,7 +84,7 @@ public class Employee implements Comparable<Employee>
 	}
 
 	/**
-	 * »ñÈ¡age.
+	 * è·å–age.
 	 * @return
 	 *     age.
 	 */

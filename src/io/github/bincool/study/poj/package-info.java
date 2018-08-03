@@ -2,10 +2,10 @@
 * @FileName: package-info.java
 * @Package: io.github.bincool.study.poj
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: package-info.java: Ëã·¨Ìâ:https://www.cnblogs.com/grandyang/p/4294788.html.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê7ÔÂ30ÈÕ ÏÂÎç3:15:59.
-* @Content: ĞÂÔö.
+* @Description: package-info.java: ç®—æ³•é¢˜:https://www.cnblogs.com/grandyang/p/4294788.html.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´7æœˆ30æ—¥ ä¸‹åˆ3:15:59.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 /**
@@ -13,18 +13,18 @@
 * 
 * @Description: 
 * <p>
-* Ëã·¨Ìâ:https://www.cnblogs.com/grandyang/p/4294788.html.
+* ç®—æ³•é¢˜:https://www.cnblogs.com/grandyang/p/4294788.html.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê7ÔÂ30ÈÕ ÏÂÎç3:15:59.
+* @Date: 2018å¹´7æœˆ30æ—¥ ä¸‹åˆ3:15:59.
 * 
 */
 package io.github.bincool.study.poj;
